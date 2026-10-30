@@ -67,7 +67,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "TIMEFLOW AI — Master Your Time" },
+      { title: "NIZTIME AI — Master Your Time" },
       { name: "description", content: "Intelligent personal planning for study, fitness, work and life." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

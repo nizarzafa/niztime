@@ -8,9 +8,9 @@ import { buildDraftSchedule, categoryColor, type Category, type PlanTask } from 
 export const Route = createFileRoute("/create")({
   head: () => ({
     meta: [
-      { title: "Create My Plan — TIMEFLOW AI" },
+      { title: "Create My Plan — NIZTIME AI" },
       { name: "description", content: "Build a personal schedule from your tasks, hours and priorities." },
-      { property: "og:title", content: "Create My Plan — TIMEFLOW AI" },
+      { property: "og:title", content: "Create My Plan — NIZTIME AI" },
       { property: "og:description", content: "Build a personal schedule from your tasks, hours and priorities." },
     ],
   }),

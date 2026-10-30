@@ -11,7 +11,7 @@ const en = {
   landing: {
     badge: "Intelligent life planning",
     tagline: "Master Your Time. Design Your Life.",
-    sub: "TIMEFLOW AI brings your studies, workouts, work and personal routines into one calm, intelligent timeline.",
+    sub: "NIZTIME AI brings your studies, workouts, work and personal routines into one calm, intelligent timeline.",
     heroCards: [
       ["Smart Planning", "Organize your time intelligently."],
       ["Personalized Schedules", "Plans adapted to your goals."],
@@ -53,7 +53,7 @@ const en = {
     empty: "Add at least one task to build a schedule.", hours: "h",
   },
   pro: {
-    title: "TIMEFLOW Pro", sub: "Powerful tools for ambitious planners.",
+    title: "NIZTIME Pro", sub: "Powerful tools for ambitious planners.",
     items: [
       ["Advanced planning", "Multi-goal plans, dependencies and long-range roadmaps."],
       ["Smart schedule adjustments", "Your plan will adapt when life changes. (In development)"],
@@ -77,7 +77,7 @@ const fr: Dict = {
   landing: {
     badge: "Planification de vie intelligente",
     tagline: "Maîtrisez votre temps. Concevez votre vie.",
-    sub: "TIMEFLOW AI réunit vos études, entraînements, travail et routines dans une seule chronologie claire et intelligente.",
+    sub: "NIZTIME AI réunit vos études, entraînements, travail et routines dans une seule chronologie claire et intelligente.",
     heroCards: [
       ["Planification intelligente", "Organisez votre temps intelligemment."],
       ["Plannings personnalisés", "Des plans adaptés à vos objectifs."],
@@ -119,7 +119,7 @@ const fr: Dict = {
     empty: "Ajoutez au moins une tâche pour créer un planning.", hours: "h",
   },
   pro: {
-    title: "TIMEFLOW Pro", sub: "Des outils puissants pour les planificateurs ambitieux.",
+    title: "NIZTIME Pro", sub: "Des outils puissants pour les planificateurs ambitieux.",
     items: [
       ["Planification avancée", "Plans multi-objectifs, dépendances et feuilles de route."],
       ["Ajustements intelligents", "Votre plan s'adaptera aux imprévus. (En développement)"],
@@ -141,7 +141,7 @@ const ar: Dict = {
   landing: {
     badge: "تخطيط ذكي للحياة",
     tagline: "تحكّم في وقتك. صمّم حياتك.",
-    sub: "يجمع TIMEFLOW AI دراستك وتمارينك وعملك وروتينك الشخصي في خط زمني واحد هادئ وذكي.",
+    sub: "يجمع NIZTIME AI دراستك وتمارينك وعملك وروتينك الشخصي في خط زمني واحد هادئ وذكي.",
     heroCards: [
       ["تخطيط ذكي", "نظّم وقتك بذكاء."],
       ["جداول مخصصة", "خطط مُكيّفة مع أهدافك."],
@@ -183,7 +183,7 @@ const ar: Dict = {
     empty: "أضف مهمة واحدة على الأقل لإنشاء جدول.", hours: "س",
   },
   pro: {
-    title: "TIMEFLOW برو", sub: "أدوات قوية للمخططين الطموحين.",
+    title: "NIZTIME برو", sub: "أدوات قوية للمخططين الطموحين.",
     items: [
       ["تخطيط متقدم", "خطط متعددة الأهداف وخرائط طريق طويلة المدى."],
       ["تعديلات ذكية للجدول", "ستتكيف خطتك مع تغيّرات حياتك. (قيد التطوير)"],

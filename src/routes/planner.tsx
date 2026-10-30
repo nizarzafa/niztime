@@ -8,9 +8,9 @@ import { categoryColor, monthEvents, monthGrid, todayEvents, type Category } fro
 export const Route = createFileRoute("/planner")({
   head: () => ({
     meta: [
-      { title: "Planner — TIMEFLOW AI" },
+      { title: "Planner — NIZTIME AI" },
       { name: "description", content: "Daily, weekly and monthly planner views." },
-      { property: "og:title", content: "Planner — TIMEFLOW AI" },
+      { property: "og:title", content: "Planner — NIZTIME AI" },
       { property: "og:description", content: "Daily, weekly and monthly planner views." },
     ],
   }),
