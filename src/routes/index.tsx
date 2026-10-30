@@ -6,9 +6,9 @@ import { categoryColor, monthEvents, monthGrid } from "@/lib/sample-data";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "TIMEFLOW AI — Master Your Time. Design Your Life." },
-      { name: "description", content: "TIMEFLOW AI organizes your studies, fitness, work and personal goals in one futuristic planner." },
-      { property: "og:title", content: "TIMEFLOW AI — Master Your Time. Design Your Life." },
+      { title: "NIZTIME AI — Master Your Time. Design Your Life." },
+      { name: "description", content: "NIZTIME AI organizes your studies, fitness, work and personal goals in one futuristic planner." },
+      { property: "og:title", content: "NIZTIME AI — Master Your Time. Design Your Life." },
       { property: "og:description", content: "One intelligent planner for study, fitness, work and life." },
     ],
   }),
@@ -125,6 +125,15 @@ function Landing() {
         <div className="grid gap-6 md:grid-cols-2">
           <PriceCard name={L.free} price="$0" items={L.freeItems} />
           <PriceCard name={L.proName} price="$9" items={L.proItems} featured />
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-3xl px-4 py-20 text-center sm:px-6">
+        <div className="glass relative overflow-hidden p-10">
+          <div className="pointer-events-none absolute -top-16 left-1/2 h-40 w-40 -translate-x-1/2 rounded-full bg-gradient-brand opacity-30 blur-3xl" />
+          <h2 className="text-2xl font-bold sm:text-3xl">{L.creatorTitle}</h2>
+          <p className="mt-4 text-muted-foreground">{L.creatorText}</p>
+          <p className="mt-6 font-display text-lg font-semibold"><span className="text-gradient">{L.creator}</span></p>
         </div>
       </section>
     </>

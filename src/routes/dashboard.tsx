@@ -7,9 +7,9 @@ import { categoryColor, goalProgress, monthEvents, monthGrid, todayEvents, weekH
 export const Route = createFileRoute("/dashboard")({
   head: () => ({
     meta: [
-      { title: "Dashboard — TIMEFLOW AI" },
+      { title: "Dashboard — NIZTIME AI" },
       { name: "description", content: "Your day, week and goals at a glance." },
-      { property: "og:title", content: "Dashboard — TIMEFLOW AI" },
+      { property: "og:title", content: "Dashboard — NIZTIME AI" },
       { property: "og:description", content: "Your day, week and goals at a glance." },
     ],
   }),

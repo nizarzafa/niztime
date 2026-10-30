@@ -6,9 +6,9 @@ import { useI18n } from "@/lib/i18n";
 export const Route = createFileRoute("/pro")({
   head: () => ({
     meta: [
-      { title: "Pro Features — TIMEFLOW AI" },
+      { title: "Pro Features — NIZTIME AI" },
       { name: "description", content: "Advanced planning, smart adjustments, analytics and premium templates." },
-      { property: "og:title", content: "Pro Features — TIMEFLOW AI" },
+      { property: "og:title", content: "Pro Features — NIZTIME AI" },
       { property: "og:description", content: "Advanced planning, smart adjustments, analytics and premium templates." },
     ],
   }),

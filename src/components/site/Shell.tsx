@@ -11,7 +11,7 @@ export function Logo() {
         <span className="h-3.5 w-3.5 rounded-full border-2 border-primary-foreground" />
       </span>
       <span className="font-display text-lg font-bold tracking-tight" dir="ltr">
-        TIMEFLOW <span className="text-gradient">AI</span>
+        NIZTIME <span className="text-gradient">AI</span>
       </span>
     </Link>
   );
@@ -109,7 +109,10 @@ export function Footer() {
             <Link key={l.to} to={l.to} className="hover:text-foreground">{t.nav[l.key]}</Link>
           ))}
         </div>
-        <p className="text-xs text-muted-foreground">© 2026 TIMEFLOW AI. {t.landing.rights}</p>
+        <div className="space-y-1 text-xs text-muted-foreground">
+          <p>© 2026 NIZTIME AI. {t.landing.rights}</p>
+          <p className="font-semibold text-foreground/80">{t.landing.creator}</p>
+        </div>
       </div>
     </footer>
   );
