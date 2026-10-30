@@ -14,6 +14,7 @@ import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 import { I18nProvider } from "@/lib/i18n";
 import { Navbar, Footer } from "@/components/site/Shell";
+import { PlanningProvider } from "@/lib/planning/store";
 
 function NotFoundComponent() {
   return (
@@ -108,11 +109,13 @@ function RootComponent() {
   return (
     <QueryClientProvider client={queryClient}>
       <I18nProvider>
+        <PlanningProvider>
         <Navbar />
         <main>
           <Outlet />
         </main>
         <Footer />
+        </PlanningProvider>
       </I18nProvider>
     </QueryClientProvider>
   );
