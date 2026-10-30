@@ -12,7 +12,11 @@ const en = {
     badge: "Intelligent life planning",
     tagline: "Master Your Time. Design Your Life.",
     sub: "TIMEFLOW AI brings your studies, workouts, work and personal routines into one calm, intelligent timeline.",
-    stats: ["Hours planned", "Active planners", "Goal completion"],
+    heroCards: [
+      ["Smart Planning", "Organize your time intelligently."],
+      ["Personalized Schedules", "Plans adapted to your goals."],
+      ["Track Your Progress", "Follow your daily achievements."],
+    ],
     featuresTitle: "Everything your time needs",
     featuresSub: "One platform for every area of your life.",
     features: [
@@ -74,7 +78,11 @@ const fr: Dict = {
     badge: "Planification de vie intelligente",
     tagline: "Maîtrisez votre temps. Concevez votre vie.",
     sub: "TIMEFLOW AI réunit vos études, entraînements, travail et routines dans une seule chronologie claire et intelligente.",
-    stats: ["Heures planifiées", "Planificateurs actifs", "Objectifs atteints"],
+    heroCards: [
+      ["Planification intelligente", "Organisez votre temps intelligemment."],
+      ["Plannings personnalisés", "Des plans adaptés à vos objectifs."],
+      ["Suivez vos progrès", "Suivez vos réussites au quotidien."],
+    ],
     featuresTitle: "Tout ce dont votre temps a besoin",
     featuresSub: "Une plateforme pour chaque domaine de votre vie.",
     features: [
@@ -134,7 +142,11 @@ const ar: Dict = {
     badge: "تخطيط ذكي للحياة",
     tagline: "تحكّم في وقتك. صمّم حياتك.",
     sub: "يجمع TIMEFLOW AI دراستك وتمارينك وعملك وروتينك الشخصي في خط زمني واحد هادئ وذكي.",
-    stats: ["ساعات مخططة", "مستخدمون نشطون", "إنجاز الأهداف"],
+    heroCards: [
+      ["تخطيط ذكي", "نظّم وقتك بذكاء."],
+      ["جداول مخصصة", "خطط مُكيّفة مع أهدافك."],
+      ["تابع تقدّمك", "تابع إنجازاتك اليومية."],
+    ],
     featuresTitle: "كل ما يحتاجه وقتك",
     featuresSub: "منصة واحدة لكل جوانب حياتك.",
     features: [
