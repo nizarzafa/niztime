@@ -58,7 +58,7 @@ export function buildDraftSchedule(tasks: PlanTask[], hours: number) {
   const total = weights.reduce((a, b) => a + b, 0);
   let cursor = 8 * 60;
   return sorted.map((t, i) => {
-    const mins = Math.max(15, Math.round(((hours * 60 * weights[i]) / total) / 15) * 15);
+    const mins = Math.max(15, Math.round(((hours * 60 * (weights[i] ?? 1)) / total) / 15) * 15);
     const start = cursor;
     cursor += mins;
     const fmt = (m: number) => `${String(Math.floor(m / 60) % 24).padStart(2, "0")}:${String(m % 60).padStart(2, "0")}`;

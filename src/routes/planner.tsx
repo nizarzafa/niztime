@@ -36,7 +36,7 @@ function Planner() {
   const [month, setMonth] = useState(9);
   const [selected, setSelected] = useState(30);
   const cells = monthGrid(2026, month);
-  const toMin = (s: string) => { const [h, m] = s.split(":").map(Number); return h * 60 + m; };
+  const toMin = (s: string) => { const [h = 0, m = 0] = s.split(":").map(Number); return h * 60 + m; };
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6">

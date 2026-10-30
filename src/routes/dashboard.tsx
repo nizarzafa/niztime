@@ -85,7 +85,7 @@ function Dashboard() {
                 <div className="flex w-full max-w-10 flex-col-reverse overflow-hidden rounded-lg" style={{ height: `${(Object.values(d).reduce((a, b) => a + b, 0) / max) * 160}px` }}>
                   {cats.map((c) => <div key={c} className={categoryColor[c]} style={{ flex: d[c] }} />)}
                 </div>
-                <span className="text-[11px] text-muted-foreground">{t.days[i].slice(0, 3)}</span>
+                <span className="text-[11px] text-muted-foreground">{t.days[i]?.slice(0, 3)}</span>
               </div>
             ))}
           </div>
@@ -97,7 +97,7 @@ function Dashboard() {
             {cells.map((d, i) => (
               <div key={i} className={`relative aspect-square rounded-md ${d === 30 ? "bg-gradient-brand font-bold text-primary-foreground" : d ? "bg-glass" : ""}`}>
                 <span className="absolute inset-0 grid place-items-center">{d}</span>
-                {d && monthEvents[d] && d !== 30 && <span className={`absolute bottom-0.5 left-1/2 h-1 w-1 -translate-x-1/2 rounded-full ${categoryColor[monthEvents[d][0]]}`} />}
+                {d && monthEvents[d] && d !== 30 && <span className={`absolute bottom-0.5 left-1/2 h-1 w-1 -translate-x-1/2 rounded-full ${categoryColor[monthEvents[d][0] ?? "work"]}`} />}
               </div>
             ))}
           </div>
