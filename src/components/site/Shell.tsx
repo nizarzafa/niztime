@@ -109,7 +109,10 @@ export function Footer() {
             <Link key={l.to} to={l.to} className="hover:text-foreground">{t.nav[l.key]}</Link>
           ))}
         </div>
-        <p className="text-xs text-muted-foreground">© 2026 NIZTIME AI. {t.landing.rights}</p>
+        <div className="space-y-1 text-xs text-muted-foreground">
+          <p>© 2026 NIZTIME AI. {t.landing.rights}</p>
+          <p className="font-semibold text-foreground/80">{t.landing.creator}</p>
+        </div>
       </div>
     </footer>
   );

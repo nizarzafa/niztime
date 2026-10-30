@@ -35,6 +35,9 @@ const en = {
     choose: "Choose plan", popular: "Most popular",
     footer: "Designed for people who take their time seriously.",
     rights: "All rights reserved.",
+    creator: "Created by Nizar",
+    creatorTitle: "About the Creator",
+    creatorText: "NIZTIME AI is designed and built by Nizar — a maker passionate about helping people master their time and design their lives.",
   },
   dashboard: {
     welcome: "Welcome back, Lina", sub: "Here's how your day is shaping up.",
@@ -101,6 +104,9 @@ const fr: Dict = {
     choose: "Choisir", popular: "Le plus populaire",
     footer: "Conçu pour ceux qui prennent leur temps au sérieux.",
     rights: "Tous droits réservés.",
+    creator: "Créé par Nizar",
+    creatorTitle: "À propos du créateur",
+    creatorText: "NIZTIME AI est conçu et développé par Nizar — un créateur passionné par l'art d'aider chacun à maîtriser son temps et à concevoir sa vie.",
   },
   dashboard: {
     welcome: "Bon retour, Lina", sub: "Voici comment se présente votre journée.",
@@ -165,6 +171,9 @@ const ar: Dict = {
     choose: "اختر الخطة", popular: "الأكثر طلباً",
     footer: "مصمم لمن يأخذ وقته على محمل الجد.",
     rights: "جميع الحقوق محفوظة.",
+    creator: "من إنشاء نزار",
+    creatorTitle: "عن المُنشئ",
+    creatorText: "صمّم نزار NIZTIME AI وطوّره — صانع شغوف بمساعدة الناس على التحكم في وقتهم وتصميم حياتهم.",
   },
   dashboard: {
     welcome: "مرحباً بعودتك، لينا", sub: "إليك ملخص يومك.",

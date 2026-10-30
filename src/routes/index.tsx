@@ -127,6 +127,15 @@ function Landing() {
           <PriceCard name={L.proName} price="$9" items={L.proItems} featured />
         </div>
       </section>
+
+      <section className="mx-auto max-w-3xl px-4 py-20 text-center sm:px-6">
+        <div className="glass relative overflow-hidden p-10">
+          <div className="pointer-events-none absolute -top-16 left-1/2 h-40 w-40 -translate-x-1/2 rounded-full bg-gradient-brand opacity-30 blur-3xl" />
+          <h2 className="text-2xl font-bold sm:text-3xl">{L.creatorTitle}</h2>
+          <p className="mt-4 text-muted-foreground">{L.creatorText}</p>
+          <p className="mt-6 font-display text-lg font-semibold"><span className="text-gradient">{L.creator}</span></p>
+        </div>
+      </section>
     </>
   );
 }
