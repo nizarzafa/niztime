@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ArrowRight, Sparkles, Layers, Target, CalendarRange, BarChart3, Languages, ShieldCheck, Check } from "lucide-react";
+import { ArrowRight, Sparkles, Layers, Target, CalendarRange, BarChart3, Languages, ShieldCheck, Check, Brain, CalendarCheck2, TrendingUp } from "lucide-react";
 import { useI18n } from "@/lib/i18n";
 import { categoryColor, monthEvents, monthGrid } from "@/lib/sample-data";
 
@@ -51,6 +51,7 @@ function Calendar3D() {
 }
 
 const icons = [Layers, Target, CalendarRange, BarChart3, Languages, ShieldCheck];
+const heroCardIcons = [Brain, CalendarCheck2, TrendingUp];
 
 function Landing() {
   const { t } = useI18n();
@@ -76,13 +77,19 @@ function Landing() {
                 {t.common.learnMore}
               </a>
             </div>
-            <div className="mt-12 grid max-w-md grid-cols-3 gap-6">
-              {["2.4M", "180K", "94%"].map((v, i) => (
-                <div key={v}>
-                  <div className="font-display text-2xl font-bold" dir="ltr">{v}</div>
-                  <div className="text-xs text-muted-foreground">{L.stats[i]}</div>
-                </div>
-              ))}
+            <div className="mt-12 grid max-w-2xl gap-4 sm:grid-cols-3">
+              {L.heroCards.map(([title, desc], i) => {
+                const Icon = heroCardIcons[i] ?? Brain;
+                return (
+                  <div key={title} className="glass group p-4 transition hover:-translate-y-1 hover:shadow-glow">
+                    <div className="mb-3 grid h-9 w-9 place-items-center rounded-lg bg-gradient-brand">
+                      <Icon className="h-4 w-4 text-primary-foreground" />
+                    </div>
+                    <h3 className="text-sm font-semibold">{title}</h3>
+                    <p className="mt-1 text-xs text-muted-foreground">{desc}</p>
+                  </div>
+                );
+              })}
             </div>
           </div>
           <Calendar3D />
