@@ -96,7 +96,7 @@ function Landing() {
         </div>
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {L.features.map(([title, desc], i) => {
-            const Icon = icons[i];
+            const Icon = icons[i] ?? Layers;
             return (
               <div key={title} className="glass group p-6 transition hover:-translate-y-1 hover:shadow-glow">
                 <div className="mb-4 grid h-11 w-11 place-items-center rounded-xl bg-gradient-brand">

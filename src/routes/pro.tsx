@@ -29,7 +29,7 @@ function Pro() {
       </div>
       <div className="grid gap-6 md:grid-cols-2">
         {t.pro.items.map(([title, desc], i) => {
-          const Icon = icons[i];
+          const Icon = icons[i] ?? Crown;
           return (
             <div key={title} className="glass group relative overflow-hidden p-8 transition hover:-translate-y-1 hover:shadow-glow">
               <div className="absolute -end-16 -top-16 h-40 w-40 rounded-full bg-gradient-brand opacity-20 blur-3xl transition group-hover:opacity-40" />
